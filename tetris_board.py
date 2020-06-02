@@ -175,3 +175,11 @@ class TetrisBoard:
                 if self.board[i][j]:
                     return j + 1
         return 0
+
+    def set_board(self, new_board):
+        """ set_board(new_board)
+        Sets the current board to the new board.
+        Pads or crops the new board to the shape of the current board. """
+        if len(new_board[0]) < self.height:
+            for i in range(len(self.width)):
+                self.board[i] = new_board[i][:] + [False] * (self.height - len(new_board[0]))
