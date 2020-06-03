@@ -1,3 +1,9 @@
+def print_board(board):
+    ''' print_board(2D array board)
+    Prints the contents of the board, with empty blocks represented by spaces and filled blocks by Xs '''
+    print('\n'.join(''.join(' X'[col[::-1][i]] for col in board) for i in range(len(board[0]))))
+
+
 class TetrisPiece:
     """ Represents a 4-block piece in the game of Tetris. """
     blockShapes = {'I': (((-1, 0), (0, 0), (1, 0), (2, 0)),
@@ -181,5 +187,5 @@ class TetrisBoard:
         Sets the current board to the new board.
         Pads or crops the new board to the shape of the current board. """
         if len(new_board[0]) < self.height:
-            for i in range(len(self.width)):
+            for i in range(self.width):
                 self.board[i] = new_board[i][:] + [False] * (self.height - len(new_board[0]))
