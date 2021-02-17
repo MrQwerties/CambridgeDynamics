@@ -5,7 +5,6 @@ from keyboard_send import *
 import numpy as np
 from PIL import ImageGrab
 from tetris_display import *
-#import pyautogui
 import time
 
 

@@ -134,13 +134,14 @@ class TetrisBoard:
     def on_board(self, x, y):
         """ on_board(int x, int y) -> bool
         Returns if the location (x, y) is actually a valid location on the board. """
-        return (0 <= y < self.height) and (0 <= x < self.width)
+        return (0 <= y) and (0 <= x < self.width)
 
     def piece_fits(self, piece, x_offset=0, y_offset=0):
         """ piece_fits(TetrisPiece piece, int x_offset = 0, int y_offset = 0) -> bool
         Determines if the given Tetris piece will fit on the board at (x, y). """
         for b in piece.get_blocks():
-            if not self.on_board(b[0] + x_offset, b[1] + y_offset) or self.board[b[0] + x_offset][b[1] + y_offset]:
+            if not self.on_board(b[0] + x_offset, b[1] + y_offset)\
+                    or (b[1] + y_offset < self.height and self.board[b[0] + x_offset][b[1] + y_offset]):
                 return False
         return True
 

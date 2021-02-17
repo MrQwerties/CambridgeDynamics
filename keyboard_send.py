@@ -42,6 +42,10 @@ class INPUT(ctypes.Structure):
                 ('union', _INPUTunion))
 
 
+class POINT(ctypes.Structure):
+    _fields_ = [("x", ctypes.c_long), ("y", ctypes.c_long)]
+
+
 def SendInput(*inputs):
     nInputs = len(inputs)
     LPINPUT = INPUT * nInputs
@@ -269,8 +273,10 @@ KEY_X = 0x58
 KEY_Y = 0x59
 KEY_Z = 0x5A
 
+
 def KeybdInput(code, flags):
     return KEYBDINPUT(code, code, flags, 0, None)
+
 
 def HardwareInput(message, parameter):
     return HARDWAREINPUT(message & 0xFFFFFFFF,
@@ -353,3 +359,48 @@ def key_press(code, delay=0):
     key_down(code)
     time.sleep(delay)
     key_up(code)
+
+
+def key_write(string):
+    for event in keyboard_stream(string):
+        SendInput(event)
+
+
+def click(x, y):
+    ctypes.windll.user32.SetCursorPos(x, y)
+    ctypes.windll.user32.mouse_event(2, 0, 0, 0, 0)  # left down
+    ctypes.windll.user32.mouse_event(4, 0, 0, 0, 0)  # left up
+
+
+def mouse_position():
+    pt = POINT()
+    ctypes.windll.user32.GetCursorPos(ctypes.byref(pt))
+    return {"x": pt.x, "y": pt.y}
+
+
+if __name__ == '__main__':
+    while True:
+        print(mouse_position())
+    game_id = 14483598
+
+    time.sleep(2)
+    click(561, 52)
+    key_down(VK_CONTROL)
+    key_down(KEY_A)
+    key_up(VK_CONTROL)
+    key_up(KEY_A)
+    key_write('https://jstris.jezevec10.com/replay/' + str(game_id) + '?forceSkin=0')
+    key_press(VK_RETURN)
+    time.sleep(8)
+    for i in range(5):
+        click(1528, 818)
+        time.sleep(0.2)
+    click(810, 700)
+    time.sleep(0.1)
+    click(695, 726)
+    for i in range(5):
+        key_press(VK_LEFT)
+        time.sleep(0.01)
+    for i in range(5):
+        click(1528, 81)
+        time.sleep(0.2)
