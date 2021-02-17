@@ -2,129 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3700dc82-d358-465c-ab56-64cac96ccacd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lookahead_amplification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_models/cnn-0/saved_model.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_models/cnn-0/variables/variables.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saved_models/cnn-0/variables/variables.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tetris_lookahead_display.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game10_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game11_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game12_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game13_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game14_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game15_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game16_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game17_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game18_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra/game19_example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10097483.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10184017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10194008.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10227454.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10291796.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10358739.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10439514.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10486360.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10539980.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game1054757.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10560818.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game1058268.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10592726.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10613243.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game10693645.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11018274.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game1107512.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11088794.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game1121674.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11332318.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11380982.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11381366.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11386628.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game11546422.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game12030226.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game12325074.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13058286.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13058737.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13060719.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13101958.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13102205.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13133163.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13149261.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13149324.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13151639.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13191730.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13256350.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13361269.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13702903.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game13703188.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14424245.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14459926.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14459993.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14468714.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14483187.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14483263.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14483327.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14483598.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14484363.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14484648.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14591296.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game14591496.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15162309.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15197116.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15197320.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15308809.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15452114.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15539564.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15539836.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15540403.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15817577.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game15863695.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game16016131.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game16248008.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game2301594.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game3308281.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game3647612.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game4345328.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5077665.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5330744.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5353441.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5420822.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5577896.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5723575.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5723864.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game5723996.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game7043035.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game7614165.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game7616615.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game7664430.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game789296.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game8114532.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game8131774.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game8719796.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game8741391.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9020553.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9086044.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9086724.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9153736.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game937424.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game953049.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game953313.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9568119.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9780180.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9896721.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9900207.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9962785.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9965743.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training_data_ultra_complete/game9965863.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultra_bot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ultra_leaderboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboard_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboard_send.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/replay_reader.py" beforeDir="false" afterPath="$PROJECT_DIR$/replay_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sprint_bot_40L.py" beforeDir="false" afterPath="$PROJECT_DIR$/sprint_bot_40L.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tetris_board.py" beforeDir="false" afterPath="$PROJECT_DIR$/tetris_board.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lookahead_amplification.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="299">
               <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
@@ -173,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -804,7 +683,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lookahead_amplification.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="299">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
@@ -814,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>

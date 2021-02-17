@@ -1,4 +1,3 @@
-venv/Scripts
-venv/Lib
+venv/
 __pycache__
 .idea
